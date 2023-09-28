@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form </title>
+</head>
+<body>
+    
+    <form id="userForm">
+        <div id="heading">
+            <h1>Registration Form</h1>
+        </div>
+        <div>
+            <label>First Name</label>
+            <input type="text" placeholder="Enter first name" id="Firstname">
+        </div>
+        <div>
+            <label>Last Name</label>
+            <input type="text" placeholder="Enter Last name" id="Lastname">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" placeholder="Enter email" id="email">
+        </div>
+        <div>
+            <label>City</label>
+            <input type="text" placeholder="Enter city" id="city">
+        </div>
+        <div>Gender:
+            <label for="Male">Male</label> 
+            <input type="radio" id="Male" name="gender" value="Male">
+
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+
+            <label for="Other">Other</label>
+            <input type="radio" id="Other" name="gender" value="Other">
+        </div>
+        <div> 
+            <input type="button" id="submit" value="Submit" onclick="submitData()">
+        </div>
+        <script src="./q10.js"></script>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+#colorchange{
+    width: 10px;
+    height: 10px;
+    color: blue;
+    background-color: blue;
+    border: 1px solid black;
+    position: relative ;
+}
+.d1{
+    color: brown;
+}
+
+.d2{
+    opacity: 0.5;
+    background-color: greenyellow;
+    font-size: large;
+}
+
+.hide{
+    display: none;
+}
+
+.showbtn{
+    color: black;
+    background-color: greenyellow;
+}

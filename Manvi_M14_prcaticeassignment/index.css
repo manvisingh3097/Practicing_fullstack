@@ -1,0 +1,19 @@
+form {
+
+    padding: 5px;
+  
+    border: 1px dashed blue;
+
+    background-color: aqua;
+  
+  }
+  
+label {
+  
+    margin: 10px 0;
+  
+  }
+
+button{
+    background-color: whitesmoke;
+}

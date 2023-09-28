@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bakentake.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <span class="logo">
+            <img class="header-logo" src="./header-logo.jpg.svg" alt="BakeNtake" width="50%" height="50">
+            <span class="Logo-name">Bake n' take</span>
+
+        </span>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="nav-link"> Home</li>
+                <li class="nav-link"> About </li>
+                <li class="nav-link"> Contact</li>
+                <li class="nav-link"> Shop </li>
+
+            </ul>
+        </nav>
+        <article class="cta-button">
+            <button id="login-button">
+                Log In
+            </button>
+            <button id="signup-button">
+                Sign Up
+            </button>
+        </article>
+    </header>
+    <main class="main">
+      <article class="left-main">
+        <h1 > Baking the difference</h1>
+        <h2> We create delicious memory  <br /> just like Home. </h2>
+        <p> Everything we offer is made right here: All of the <br>
+            breads kids birthday cakes, cookies , pies , pastries , <br>
+            even our custom coffee drinks. 
+        </p>
+        <div> 
+            <button id="explore-now-button"> 
+                Explore Now
+            </button>
+            <button id="order-now-button">
+                Order Now 
+            </button>
+        </div>
+
+      </article>
+      <article class="right-main">
+        <img 
+          class="hero-image" 
+          src="./hero-image.svg" 
+          alt="hero-image"
+        />
+      </article>
+    </main>
+    <section class="alt-section">
+      <div class="form-section">
+        <h3>Contact Us</h3>
+        <h4>Our friendly team would love to hear from you.</h4>
+        <form>
+          <div class="user-name">
+            <div class="form-input">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" placeholder="First Name" >
+            </div>
+            <div class="form-input">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" placeholder="Last Name" />
+            </div>
+          </div>
+          <div class="form-input">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email" />
+          </div>
+          <div class="form-input">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="Phone" />
+          </div>
+          <div class="form-input">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              rows="5"
+              cols="50"
+              placeholder="Include a message..."
+            ></textarea>
+          </div>
+          <div class="form-input-check">
+            <input type="checkbox" id="agree-policy" >
+            <label for="agree-policy"
+              >You agree to our friendly
+              <a href="#">privacy policy</a>.</label
+            >
+          </div>
+          <div>
+          <button class="submit-button" type="submit">Send Message</button>
+        </div>
+        </form>
+      </div>
+      <div class="video-box">
+          <video  Autoplay muted loop src="./Bakry.mp4" width="50%" height="50%"></video>
+          
+      </div>
+    </section>
+    <footer class="footer">
+        <img src="./footer-logo.svg" alt="footer logo">
+        <h4> 
+            Bake n' Take
+        </h4>
+      <div class="social-icons">
+          <img src="./fb-icon.svg" alt="fb logo">
+          <img src="./github-icon.svg" alt="github">
+          <img src="./insta-icon.svg" alt="instalogo">
+          <img src="./twitter-icon.svg" alt="twitterlogo">
+          <img src="./dribble-icon.svg" alt="dribblelogo">
+      </div>
+      <h5> 2022 Workflow, Inc. All rights reserved.</h5>
+    </footer>
+</body>
+</html>
