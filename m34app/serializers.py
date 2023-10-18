@@ -1,7 +1,7 @@
 from rest_framework import serializers;
-from .models import manvidetails;
+from .models import cartitems;
 
-class manvidetailsserilizer(serializers.ModelSerializer):
+class cartitemserializers(serializers.ModelSerializer):
     class Meta:
-        model: manvidetails
-        fields = "__all__"
+        model: cartitems
+        fields = ("__all__")

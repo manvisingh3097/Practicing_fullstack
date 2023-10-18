@@ -1,7 +1,14 @@
-manvidetails = [{
-    "name" : "Manvi singh",
-    "age" : "25",
-    "eamil" : "singh.thakurmanvi@gmail.com",
-    "gender" : "female",
-    "city" : "mumbai"
-}]
+cartitems = [{
+    "itemname" : "sugar",
+    "items_id" : "1",
+    "item_price" : "1000",
+    
+}
+{
+    "itemname" : "salt",
+    "items_id" : "2",
+    "item_price" : "2000",
+    
+}
+
+]
