@@ -1,36 +1,23 @@
-from django.shortcuts import render
-from django.views import View
-from django.http import JsonResponse , Http404
-from .data import cartitems
-from .serializers import cartitemserializers
+from rest_framework.response import Response
+from .serializers import ProductSerializer
+from rest_framework.views import APIView
+from .data import *
 import json
 
 # Create your views here.
 additemsincart = []
 
-class cartdata(View):
+class ProductView(APIView):
     def get(self , request):
-        serialiseddata = cartitemserializers(cartitems, many=True).data
-        return JsonResponse(serialiseddata, safe=False)
+        serializer = ProductSerializer(all_products, many=True).data
+        return Response(serializer)
     
-class cartdetail(View):
-    def get(self , request , items_id):
-        new = json.loads(request.body)
-        itemfound = None
-        for item in cartitems:
-            if item["items_id"]==items_id: 
-                itemfound = item
-                break 
-            if itemfound:
-                return JsonResponse(cartitemserializers(itemfound).data, safe=False)
-            else:
-                raise Http404("Book not Found")
-            
-
-    def post(self , request , items_id) :
-        add_items = json.loads(request.body)
-        add_items["item_id"]= items_id
-
-    additemserializer = cartitemserializers(data=add)
+class CartView(APIView):
+    def post(self , request , id):
+        print(type(request.body))
+        data = json.loads(request.body)
+        return Response(("message" : "works"))
+       
+    
 
                

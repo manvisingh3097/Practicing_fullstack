@@ -1,7 +1,16 @@
 from rest_framework import serializers;
-from .models import cartitems;
+from .models import *
 
-class cartitemserializers(serializers.ModelSerializer):
+
+class ProductSerializer(serializers.ModelSerializer):
     class Meta:
-        model: cartitems
+        model= Product
         fields = ("__all__")
+
+
+class CartSerializer(serializers.ModelSerializer):
+    class Meta:
+        model= Cart
+        fields = ("__all__")
+
+        
