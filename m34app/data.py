@@ -3,7 +3,7 @@
 all_products = [
 
     {
-        "product_id" : "1"
+        "product_id" : "1",
 
         "name": "Product 1",
 
@@ -27,12 +27,12 @@ all_products = [
 
         "created": "2023-04-22T10:00:00Z",
 
-        "modified": "2023-04-22T10:00:00Z"
+        "modified": "2023-04-22T10:00:00Z",
 
     },
 
     {
-        "product_id" : "2"
+        "product_id" : "2",
 
         "name": "Product 2",
 
@@ -56,12 +56,12 @@ all_products = [
 
         "created": "2023-04-21T15:00:00Z",
 
-        "modified": "2023-04-21T15:00:00Z"
+        "modified": "2023-04-21T15:00:00Z",
 
     },
 
     {
-        "product_id" : "3"
+        "product_id" : "3",
 
         "name": "Product 3",
 
@@ -85,11 +85,11 @@ all_products = [
 
         "created": "2023-04-20T18:00:00Z",
 
-        "modified": "2023-04-20T18:00:00Z"
+        "modified": "2023-04-20T18:00:00Z",
 
     }
 
 
 ]
 
-cart_itemes = []
+cart_items = []
